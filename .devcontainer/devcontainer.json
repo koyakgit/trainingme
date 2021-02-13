@@ -1,0 +1,11 @@
+{
+  "name": "vsc-py",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [5000, 8082],
+  "appPort": ["5000:5000"],
+  "extensions": [
+	"ms-python.python",
+	"donjayamanne.git-extension-pack",
+	"burkeholland.simple-react-snippets"
+  ]
+}
